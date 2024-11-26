@@ -126,6 +126,8 @@ AUTHENTICATION_BACKENDS = [
    
 ]
 
+AUTH_USER_MODEL = 'accounts.User'
+
 
 
 # Password validation
